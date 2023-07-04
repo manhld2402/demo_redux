@@ -1,0 +1,104 @@
+.boxLogin {
+    background-color: yellow;
+    width: 484px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    /* justify-self: center; */
+    align-items: center;
+    border-radius: 32px;
+  }
+  .boxLogin .logo {
+    width: 34px;
+    padding-top: 31px;
+  }
+  .boxLogin h4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 11px;
+  }
+  .boxLogin h6 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 7px;
+  }
+  .boxLogin div{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 23px;
+  }
+  .boxLogin>div>i{
+      position: relative;
+      bottom: 33px;
+      left: 230px;
+  
+  }
+  .boxLogin label,
+  .boxLogin input,.boxLogin h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .boxLogin input {
+    padding: 14px 18px 15px;
+    width: 268px;
+    height: 48px;
+    background: #ffffff;
+    border: 2px solid #cdcdcd;
+    border-radius: 16px;
+    margin-top: 4px;
+  }
+  .boxLogin button {
+    width: 268px;
+    height: 40px;
+    border-radius: 20px;
+    background: #E60023;
+    font-family: 'Roboto';
+    margin-top: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  }
+  .boxLogin h5{
+      padding-top: 8px;
+  }
+  .boxLogin .btnLoginWGg{
+    background: #FFFFFF !important;
+    color: #3C4043 !important;
+    margin-bottom: 13px;
+    
+  }
+  .boxLogin .btnLoginWFb{
+      background: #1877F2 !important;
+  }
+  .boxLogin>.text{
+      font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #767676;
+  }
+  .boxLogin>.text:last-child{
+      margin-top: 13px;
+  }
+  .boxLogin span{
+      font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #111111;
+  }
+  

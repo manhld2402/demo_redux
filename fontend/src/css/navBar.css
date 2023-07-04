@@ -1,0 +1,70 @@
+.hidden{
+    display: none;
+}
+.navBar{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    align-items: center;
+   position: fixed;
+   z-index: 1;
+    
+}
+.navBar>div:first-child{
+    display: flex;
+    justify-content:space-between;
+    column-gap: 10px;
+}
+.navBar .logo{
+    width: 30px;
+}
+.navBar .btnHome{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 50px;
+}
+.navBar .btnCreate{
+    background-color:rgba(0, 0, 0, 0);
+    color: black;
+    height: 30px;
+    width: 60px;
+    border: none;
+}
+.navBar input{
+    background-color: #E9E9E9;
+    width: 1000px;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 20px;
+}
+.navBar .avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.navBar .divProfile{
+    position: relative;
+    display: flex;
+    justify-items: center;
+}
+.navBar .boxLogout{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* visibility: hidden; */
+    top: 30px;
+    right: -10px;
+    z-index: 2;
+}
+.navBar .boxLogout button{
+    width: 150px;
+    height: 50px;
+    border:none;
+}
+.navBar .divProfile:hover .boxLogout{
+    visibility: visible;
+}

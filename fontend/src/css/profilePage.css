@@ -1,0 +1,36 @@
+.profilePage{
+    padding: 70px 0 0 0;
+}
+.profilePage .avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.btnEditUser{
+    width: 150px;
+    height: 50px;
+    background-color: #E60023;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btnFollow{
+    width: 90px;
+    height: 50px;
+    background-color: #E60023;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profilePage>div>button{
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+}

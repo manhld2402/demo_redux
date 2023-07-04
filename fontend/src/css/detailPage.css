@@ -1,0 +1,132 @@
+button:hover{
+  cursor: pointer;
+}
+.detailPage{
+  padding: 70px 20px;
+}
+.detailPage .userName:hover{
+  cursor: pointer;
+}
+.detailBox{
+  width: 1100px;
+  display: flex;
+  border-radius: 30px;
+  /* justify-content: center; */
+  background-color: aqua;
+  /* align-items: center; */
+  margin: 0 auto;
+}
+.detailBox .detail-img {
+    width: 50%;
+    /* border-radius: 30px 0px 0px 30px; */
+  
+}
+.detail-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.commentBox{
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* align-items: start; */
+}
+.commentHeader{
+  display: flex;
+justify-content: space-between;
+margin: 40px;
+font-size: 20px;
+}
+.dataOwner{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 30px;
+}
+.dataOwner img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+
+}
+.dataOwner>div {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin:20px;
+}
+.dataOwner>div>div{
+  display: flex;
+}
+.dataOwner button{
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #EFEFEF;
+  border: none;
+}
+.comments{
+  padding: 10px;
+  text-align: left;
+}
+.comments>p{
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.comment{
+  display: flex;
+  padding: 10px;
+}
+.comment img{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.detailPage .userName{
+  font-size: 20px;
+  font-weight: 500;
+}
+.detailPage .userName>span{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.inputCmt{
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.reactionCmt{
+  display: flex;
+  gap: 30px;
+}
+.connectionPhoto{
+  margin: 0px 20px;
+    column-count: 7;
+    column-gap: 20px;
+  }
+ .connectionPhoto .photoCard {
+  break-inside: avoid;
+  padding-bottom: 20px;
+}
+.connectionPhoto .photo {
+  background: #CCC;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 20px;
+}
+i:hover{
+  cursor: pointer;
+}
